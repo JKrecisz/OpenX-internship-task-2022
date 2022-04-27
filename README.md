@@ -65,8 +65,12 @@ Assuming it's 2022-07-01 09:00:00 now and:
 
 Calling the script:
 
-_python3 find-available-slot.py --calendars /in --duration-in-minutes 30 --minumum-people 2_
+```
+python3 find-available-slot.py --calendars /in --duration-in-minutes 30 --minumum-people 2
+```
 
 should print out:
 
-_2022-07-02 14:00:00_
+```
+2022-07-02 14:00:00
+```
