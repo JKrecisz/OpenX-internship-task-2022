@@ -16,7 +16,7 @@ import re
 parser = argparse.ArgumentParser(description='Find available slot for a specific number of people and time')
 
 parser.add_argument('--duration-in-minutes', type=int, required=True, metavar='',
-                    help='Availability of people (minutes)')
+                    help='Availability time of people (minutes)')
 parser.add_argument('--minimum-people', type=int, required=True, metavar='', help='Minimum number of people')
 parser.add_argument('--calendars', required=True, metavar='', help='Name of the date folder')
 
