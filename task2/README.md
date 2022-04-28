@@ -5,7 +5,21 @@ The script works, has been tested with different values.
 
 ### How to run
 
-Firstly, download the entire repository (If you did it in the first task, skip this step):
+Before everything, check if you have these libraries:
+- re
+- glob
+- datetime
+- argparse
+
+If not, just download them like:
+
+```text
+pip install regex
+    # or
+pip3 install regex
+```
+
+Then, download the entire repository (If you did it in the first task, skip this step):
 ```text
 git clone https://github.com/JKrecisz/OpenX-internship-task-2022.git
 ```
