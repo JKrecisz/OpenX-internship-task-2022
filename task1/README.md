@@ -46,3 +46,5 @@ python3 supply-chain-tree.py
 ```
 
 ### How it looks
+
+<img width="612" alt="openX" src="https://user-images.githubusercontent.com/93099511/165657936-abca179b-ebdc-461a-931f-6a9f1f4be693.png">
