@@ -76,11 +76,8 @@ def findEachDaySlot(personsTimes, minutes, startingTime):
             busyTimeEnds = datetime.datetime(int(time[0:4]), int(time[5:7]), int(time[8:10]),
                                              int(time[-8:-6]), int(time[-5: -3]), int(time[-2:]))
 
-            if busyTimeStarts < startingTime < busyTimeEnds:
-                return 0
-            elif busyTimeStarts < endingTime < busyTimeEnds:
-                return 0
-            elif startingTime < beginningOfTheDay or endingTime > endOfTheDay:
+            if (busyTimeStarts < startingTime < busyTimeEnds) or (busyTimeStarts < endingTime < busyTimeEnds) or (
+                    startingTime < beginningOfTheDay) or (endingTime > endOfTheDay):
                 return 0
         else:
             return 0
